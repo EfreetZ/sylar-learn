@@ -55,10 +55,28 @@ string
 -
 sstream
 -
+cctype
+-
 boost/lexical_cast.hpp
+-
+yaml-cpp/yaml.h
 -
 ./log.h
 /home/hades/cpp_program/sylar/sylar/./log.h
+vector
+-
+list
+-
+map
+-
+set
+-
+unordered_map
+-
+unordered_set
+-
+functional
+-
 
 /home/hades/cpp_program/sylar/sylar/log.h
 string
@@ -90,6 +108,8 @@ map
 ../sylar/log.h
 /home/hades/cpp_program/sylar/sylar/log.h
 yaml-cpp/yaml.h
+-
+iostream
 -
 
 /usr/local/include/yaml-cpp/binary.h

@@ -1,2 +1,0 @@
-2020-10-03 21:16:25	ERROR	test macro error
-2020-10-03 21:16:25	ERROR	test macro fmt error aa

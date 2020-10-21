@@ -1,15 +1,15 @@
 logs:
   - name: root
     level: info
-    formatter: "%d%T%m%n"
-    appender:
+    formatter: '%d%T%m%n'
+    appenders:
         - type: FileLogAppender
-          file: log.txt
+          file: root.txt
         - type: StdouLogAppender
   - name: system
     level: debug
-    formatter: "%d%T%m%n"
-    appender:
+    formatter: '%d%T[%p]%T%m%n'
+    appenders:
       - type: FileLogAppender
-        path: log.txt
+        file: system.txt
       - type: StdouLogAppender

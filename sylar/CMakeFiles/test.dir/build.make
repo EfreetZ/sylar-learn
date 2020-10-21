@@ -63,15 +63,15 @@ include CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/tests/test.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/tests/test.cc.o: tests/test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hades/cpp_program/sylar/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/tests/test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/tests/test.cc.o -c /home/hades/cpp_program/sylar/tests/test.cc
+	/usr/bin/c++  $(CXX_DEFINES) -D__FILE__=\"tests/test.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/tests/test.cc.o -c /home/hades/cpp_program/sylar/tests/test.cc
 
 CMakeFiles/test.dir/tests/test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/tests/test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hades/cpp_program/sylar/tests/test.cc > CMakeFiles/test.dir/tests/test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"tests/test.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hades/cpp_program/sylar/tests/test.cc > CMakeFiles/test.dir/tests/test.cc.i
 
 CMakeFiles/test.dir/tests/test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tests/test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hades/cpp_program/sylar/tests/test.cc -o CMakeFiles/test.dir/tests/test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"tests/test.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hades/cpp_program/sylar/tests/test.cc -o CMakeFiles/test.dir/tests/test.cc.s
 
 CMakeFiles/test.dir/tests/test.cc.o.requires:
 
@@ -94,6 +94,7 @@ test_EXTERNAL_OBJECTS =
 bin/test: CMakeFiles/test.dir/tests/test.cc.o
 bin/test: CMakeFiles/test.dir/build.make
 bin/test: lib/libsylar.so
+bin/test: /usr/local/lib/libyaml-cpp.a
 bin/test: CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hades/cpp_program/sylar/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)

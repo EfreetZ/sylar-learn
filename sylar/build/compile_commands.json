@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/hades/cpp_program/sylar/build",
+  "command": "/usr/bin/g++-7   -D__FILE__=\\\"tests/test_config.cc\\\" -I/home/hades/cpp_program/sylar/. -I/usr/local/include   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function
+ -Wno-builtin-macro-redefined -g   -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /home/hades/cpp_program/sylar/tests/test_config.cc",
+  "file": "/home/hades/cpp_program/sylar/tests/test_config.cc"
+},
+{
+  "directory": "/home/hades/cpp_program/sylar/build",
+  "command": "/usr/bin/g++-7  -Dsylar_EXPORTS -D__FILE__=\\\"sylar/log.cc\\\" -I/home/hades/cpp_program/sylar/. -I/usr/local/include   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function
+ -Wno-builtin-macro-redefined -g -fPIC   -o CMakeFiles/sylar.dir/sylar/log.cc.o -c /home/hades/cpp_program/sylar/sylar/log.cc",
+  "file": "/home/hades/cpp_program/sylar/sylar/log.cc"
+},
+{
+  "directory": "/home/hades/cpp_program/sylar/build",
+  "command": "/usr/bin/g++-7  -Dsylar_EXPORTS -D__FILE__=\\\"sylar/util.cc\\\" -I/home/hades/cpp_program/sylar/. -I/usr/local/include   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function
+ -Wno-builtin-macro-redefined -g -fPIC   -o CMakeFiles/sylar.dir/sylar/util.cc.o -c /home/hades/cpp_program/sylar/sylar/util.cc",
+  "file": "/home/hades/cpp_program/sylar/sylar/util.cc"
+},
+{
+  "directory": "/home/hades/cpp_program/sylar/build",
+  "command": "/usr/bin/g++-7  -Dsylar_EXPORTS -D__FILE__=\\\"sylar/config.cc\\\" -I/home/hades/cpp_program/sylar/. -I/usr/local/include   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function
+ -Wno-builtin-macro-redefined -g -fPIC   -o CMakeFiles/sylar.dir/sylar/config.cc.o -c /home/hades/cpp_program/sylar/sylar/config.cc",
+  "file": "/home/hades/cpp_program/sylar/sylar/config.cc"
+},
+{
+  "directory": "/home/hades/cpp_program/sylar/build",
+  "command": "/usr/bin/g++-7   -D__FILE__=\\\"tests/test.cc\\\" -I/home/hades/cpp_program/sylar/. -I/usr/local/include   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function
+ -Wno-builtin-macro-redefined -g   -o CMakeFiles/test.dir/tests/test.cc.o -c /home/hades/cpp_program/sylar/tests/test.cc",
+  "file": "/home/hades/cpp_program/sylar/tests/test.cc"
+}
+]
